@@ -8,15 +8,15 @@ module.exports = function taskIf(condition, name, fn) {
   }
 
   if (typeof condition !== 'boolean') {
-    throw new Error('gulp-task-if: condition must be a boolean.');
+    throw new Error('gulp-run-task-if: condition must be a boolean.');
   }
 
   if (typeof fn !== 'function') {
-    throw new Error('gulp-task-if: wrong \'function\' argument.');
+    throw new Error('gulp-run-task-if: wrong \'function\' argument.');
   }
 
   if (typeof name !== 'string' && typeof name !== 'undefined') {
-    throw new Error('gulp-task-if: name must be a string.');
+    throw new Error('gulp-run-task-if: name must be a string.');
   }
 
   if (condition) {

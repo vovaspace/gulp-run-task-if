@@ -1,6 +1,6 @@
 # gulp-run-task-if
 ```bash
-npm i gulp-run-task-if  --save-dev
+npm i gulp-run-task-if --save-dev
 ```
 
 ## Usage
@@ -62,7 +62,7 @@ const taskIf = require('gulp-run-task-if');
  
 const condition = false; // Add your business logic...
  
-gulp.task('conditionTask', taskIf(condition, 'conditionTask',() => (
+gulp.task('conditionTask', taskIf(condition, 'conditionTask', () => (
   gulp.src('src/*')
     .pipe(...)
     .pipe(gulp.dest('dist/'));
