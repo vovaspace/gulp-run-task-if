@@ -1,0 +1,21 @@
+{
+  "name": "gulp-task-if",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/vovaspace/gulp-task-if",
+  "main": "index.js",
+  "keywords": [
+    "gulpplugin",
+    "gulptask",
+    "conditional",
+    "if",
+    "ternary"
+  ],
+  "author": "Vova Space <hi@vovaspace.com> (https://github.com/vovaspace)",
+  "repository": "git://github.com/vovaspace/gulp-task-if.git",
+  "license": "MIT",
+  "dependencies": {
+    "ansi-colors": "^3.2.4",
+    "fancy-log": "^1.3.3"
+  }
+}
