@@ -2,7 +2,7 @@
   "name": "gulp-run-task-if",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/vovaspace/gulp-task-if",
+  "homepage": "https://github.com/vovaspace/gulp-run-task-if",
   "main": "index.js",
   "keywords": [
     "gulpplugin",
@@ -12,7 +12,7 @@
     "ternary"
   ],
   "author": "Vova Space <hi@vovaspace.com> (https://github.com/vovaspace)",
-  "repository": "git://github.com/vovaspace/gulp-task-if.git",
+  "repository": "git://github.com/vovaspace/gulp-run-task-if.git",
   "license": "MIT",
   "dependencies": {
     "ansi-colors": "^3.2.4",
