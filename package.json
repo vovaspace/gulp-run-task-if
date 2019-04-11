@@ -1,7 +1,7 @@
 {
   "name": "gulp-run-task-if",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Conditionally decide whether to run a gulp task or to skip it",
   "homepage": "https://github.com/vovaspace/gulp-run-task-if",
   "main": "index.js",
   "keywords": [
