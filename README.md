@@ -9,11 +9,11 @@ const taskIf = require('gulp-run-task-if');
  
 const condition = false; // Add business logic...
  
-gulp.task('task', taskIf(condition, () => {
+gulp.task('task', taskIf(condition, () => (
   gulp.src('src/*')
     .pipe(...)
     .pipe(gulp.dest('dist/'));
-});
+));
 ```
 
 ## For example
